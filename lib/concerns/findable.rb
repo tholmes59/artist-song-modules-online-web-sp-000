@@ -2,11 +2,11 @@ module Finadable
   
   
   def find_by_name(name)
-    self.all.class.detect{|a| a.name == name}
+    self.class.all.detect{|a| a.name == name}
   end
  
   def all
-    self.all.class
+    self.class.all
   end
   
 end
