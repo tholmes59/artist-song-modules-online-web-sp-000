@@ -5,5 +5,8 @@ module Finadable
     self.detect{|a| a.name == name}
   end
  
+  def all
+    self
+  end
   
 end
